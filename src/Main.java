@@ -3,5 +3,6 @@ public class Main {
         BubbleSort.testSort();
         QuickSort.testSort();
         CountingSort.testSort();
+        SearchPattern.testSearch();
     }
 }
