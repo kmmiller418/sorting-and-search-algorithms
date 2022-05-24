@@ -5,6 +5,7 @@ public class SearchPattern {
     public static void testSearch(){
         String s = "batmanandrobinarebat";
         String pat = "bat";
+        System.out.println("String: " + s + ", substr: " + pat);
         System.out.println(search(s, pat).toString());
     }
 
